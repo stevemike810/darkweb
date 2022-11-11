@@ -1,0 +1,96 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 100s linear infinite
+}
+@keyframes animatedBackground{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:100% 0
+    }
+}
+.therow{
+    margin-top: 55px;
+}
+@media screen and (max-width: 1026px) {
+    .therow{
+        margin-top: 78px;
+    }
+}
+#predat {
+    display: none;
+    padding: 3px;
+    height: 100vh;
+    margin: 0 -7px !important;
+}
+#predat div {
+    overflow-y: hidden !important;
+}
+#predat .section-heading h4 {
+    color: #121d33;
+}
+.butn.home-btn{
+    margin-top: 7vh;
+    color: #121d33 !important;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px;
+}
+.butn.modal-btn {
+    margin-top: 7vh;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px;
+}
+.butn.modal-btn img,
+.butn.home-btn img {
+    margin-left: 3px !important;
+}
+.butn.modal-btn img,
+.butn.home-btn img {
+    width: 27px;
+    border-radius: 0;
+}
+.modal-p {
+    font-size: 17.5px !important;
+}
+@media screen and (max-width: 500px) {
+    .modal-p {
+        font-size: 17.3px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    .modal-p {
+        font-size: 17px !important;
+    }
+}
+
+
+#style-switcher{
+    top: 24%;
+}
+@media (max-width:592px){
+    #style-switcher{
+        top: 19%;
+    }
+}
+
+#exampleModal .modal-dialog {
+    top: 11vh !important;
+}
+#anon-check {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 21vh !important;
+    }
+}
+
+#down-file {
+    text-transform: uppercase !important;
+}
